@@ -1,0 +1,198 @@
+*{
+    /* VARIAVEIS */
+
+    --background-1: #F0F2F5;
+    --background-2: #FFFFFF;
+    --azul-geral: #187cff;
+    --azul-geral-2: #166FE5;
+    --verder-btn: #40c026;
+    --verder-btn-2: #36A420;
+    --text-color: #F5F5F5;
+    --text-color-2: #dedede;
+
+    --font-geral: Arial, sans-serif;
+
+
+    /* CONFIGURAÇÕES */
+
+    margin: 0;
+    padding: 0;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: var(--font-geral);
+}
+
+
+.container-bg-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+    width: 100%;
+    height: 90vh;
+    background-color: var(--background-1);
+}
+
+.logo{
+    width: 240px;
+    position: relative;
+    bottom: 23px;
+}
+
+.background-login{
+    position: relative;
+    bottom: 20px;
+    background-color: white;
+    width: 395px;
+    padding: 20px 15px 20px 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 10%), 0 8px 16px rgb(0 0 0 / 10%);
+}
+
+.container-text-login{
+    text-align: center;
+    margin-bottom: 23px;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    border: 1.5px solid var(--text-color-2);
+    border-radius: 7px;
+    font-size: 17px;
+    font-weight: 100;
+    padding: 15px;
+    height: 51px;
+    margin-bottom: 12px;
+}
+
+form input::placeholder{
+    color: #8f8f8f;
+}
+
+form .btn-login{
+    background-color: var(--azul-geral);
+    color: white;
+    padding-bottom: 40px;
+    font-size: 20px;
+    font-weight: 600;
+
+    cursor: pointer;
+}
+
+form .btn-login:hover{
+    background-color: var(--azul-geral-2);
+}
+
+form a {
+    margin: 5px 0 20px 0;
+    color: var(--azul-geral);
+    text-align: center;
+    font-size: 14px;
+}
+
+.create-account{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top:1px solid #c8c8c8cb;
+}
+
+.create-account .text-create-account{
+    background-color: white;
+    color: #a2a2a2;
+    font-size: 12px;
+
+    position: relative;
+    bottom: 9.5px;
+
+    padding-left: 20px;
+    padding-right: 20px;
+    
+}
+
+.btn-create-account{
+    background-color: var(--verder-btn);
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+
+    border: none;
+    border-radius: 7px;
+    padding: 15px;
+
+    cursor: pointer;
+
+    margin-top: 10px;
+  
+}
+
+.btn-create-account:hover{
+    background-color: var(--verder-btn-2);
+}
+
+  /* SEGUNDA PARTE */
+
+  .container-bg-2{
+    padding: 70px 5px 0 5px;
+    max-width: 1000px;
+    margin: auto;
+    font-size: 12px;
+  }
+
+  a{
+    color: #a2a2a2;
+  }
+
+  ul{
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+ .brasil{
+    color: #727272;
+ }
+
+  li{
+    margin-right: 15px;
+    flex-wrap: wrap;
+  }
+
+  li > a:hover{
+    text-decoration: underline;
+  }
+
+  .add-lang{
+    padding: 0 5px 0 5px;
+  }
+
+  .function{
+    margin-top: 5px;
+    padding-top: 10px;
+    border-top: 1px solid #dadada;
+  }
+
+  .function a {
+    margin-right: 20px;
+  }
+
+  .function a:hover {
+    text-decoration: underline;
+  }
+
+  .version{
+    margin: 30px 0 20px 0;
+    font-size: 11px;
+    color: #727272;
+  }
+
+
