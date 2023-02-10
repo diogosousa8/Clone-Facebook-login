@@ -1,3 +1,3 @@
 <div>
-  <img src="">
+  <img src="clone-login-facebook.png">
 </div>
